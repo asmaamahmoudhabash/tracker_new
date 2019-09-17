@@ -60,7 +60,7 @@
                             <div class="col-sm-12">
                                 <div class="card">
                                     <div class="card-header">
-                                        <h5 style="color: #800e19">finshed tasks</h5> : {{ count( $finished_tasks)/ count( $all_tasks)*100}}
+                                        <h5 style="color: #800e19">finshed tasks</h5> : {{ count( $finished_tasks)/ count( $all_tasks)*100}}%
                                     </div>
 
 
@@ -75,7 +75,7 @@
                             <div class="col-sm-12">
                                 <div class="card">
                                     <div class="card-header">
-                                        <h5 style="color: #800e19">Not finshed tasks</h5> :{{ count($not_finished_tasks)/ count( $all_tasks)*100}}
+                                        <h5 style="color: #800e19">Not finshed tasks</h5> :{{ count($not_finished_tasks)/ count( $all_tasks)*100}}%
                                     </div>
 
 
