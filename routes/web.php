@@ -30,7 +30,7 @@ Route::group(array('prefix' => 'AdminPanel', 'middleware' => 'auth'), function (
 
 
     // tasks
-    Route::get('finish_task/{id}','TaskController@finish_')->name('finished');
+    Route::get('finish_task/{id}','TaskController@finish')->name('finished');
     Route::get('notFinish_task/{id}','TaskController@notFinish')->name('notFinished');
 
 

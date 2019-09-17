@@ -115,7 +115,7 @@ class TaskController extends Controller
 
 
 
-    public function finish_($id)
+    public function finish($id)
     {
         $task = Task::findOrFail($id);
         $task->status = 1;
